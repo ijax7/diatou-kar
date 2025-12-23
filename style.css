@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #222;
+  font-size: 40px;
+}
+
+.intro {
+  font-size: 18px;
+  color: #555;
+}
+
+hr {
+  width: 60%;
+  margin: 30px auto;
+}
+
+.galerie {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.galerie img {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.videos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+video {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #777;
+}
